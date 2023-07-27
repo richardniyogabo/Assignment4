@@ -33,10 +33,10 @@ const App = () => {
                     <Stack.Screen name='Home' component={Home} options={{
                         headerShown: true,
                     }} />
-                    {/* <Stack.Screen name='Sound' component={Sound} options={{
+                    <Stack.Screen name='Sound' component={Sound} options={{
                         headerShown: true,
                     }} />
-                    <Stack.Screen name='Playlist' component={Songs} options={{
+                    {/* <Stack.Screen name='Playlist' component={Songs} options={{
                         headerShown: true,
                     }} />
                     <Stack.Screen name='Camera' component={Camera} options={{
