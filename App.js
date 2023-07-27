@@ -39,9 +39,9 @@ const App = () => {
                     <Stack.Screen name='Playlist' component={Songs} options={{
                         headerShown: true,
                     }} />
-                    {/* <Stack.Screen name='Camera' component={Camera} options={{
+                    <Stack.Screen name='Camera' component={Camera} options={{
                         headerShown: false,
-                    }} /> */}
+                    }} />
                     <Stack.Screen name='Maps' component={Maps} options={{
                         headerShown: false,
                     }} />
