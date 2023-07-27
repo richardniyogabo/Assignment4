@@ -8,10 +8,10 @@ const Home = ({ navigation }) => {
       <TouchableOpacity onPress={() => navigation.navigate('Sound')} activeOpacity={.6} style={styles.promptButton}>
         <Text style={styles.buttonText}>Sounds.</Text>
       </TouchableOpacity>
-      {/* <TouchableOpacity onPress={() => navigation.navigate('Maps')} activeOpacity={.6} style={styles.promptButton}>
+      <TouchableOpacity onPress={() => navigation.navigate('Maps')} activeOpacity={.6} style={styles.promptButton}>
         <Text style={styles.buttonText}>Maps.</Text>
       </TouchableOpacity>
-      <TouchableOpacity onPress={() => navigation.navigate('Playlist')} activeOpacity={.6} style={styles.promptButton}>
+      {/* <TouchableOpacity onPress={() => navigation.navigate('Playlist')} activeOpacity={.6} style={styles.promptButton}>
         <Text style={styles.buttonText}>Playlist.</Text>
       </TouchableOpacity>
       <TouchableOpacity onPress={() => navigation.navigate('Camera')} activeOpacity={.6} style={styles.promptButton}>

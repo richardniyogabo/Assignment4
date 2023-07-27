@@ -41,10 +41,10 @@ const App = () => {
                     }} />
                     <Stack.Screen name='Camera' component={Camera} options={{
                         headerShown: false,
-                    }} />
+                    }} /> */}
                     <Stack.Screen name='Maps' component={Maps} options={{
                         headerShown: false,
-                    }} /> */}
+                    }} />
                     
                 </>
                }
